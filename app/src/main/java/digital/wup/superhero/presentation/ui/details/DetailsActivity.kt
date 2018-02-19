@@ -47,7 +47,7 @@ open class DetailsActivity : AppCompatActivity(), DetailsContract.DetailsView {
     override fun showCharacter(characters: Character) {
         nameTextView!!.text = characters.name
 
-        picasso.load(characters.thumbnail.path + "." + characters.thumbnail.extension).into(thumbnailImageView)
+        picasso.load(characters.thumbnail?.path + "." + characters.thumbnail?.extension).into(thumbnailImageView)
     }
 
     override fun showLoadingCharacterError(message: String) {

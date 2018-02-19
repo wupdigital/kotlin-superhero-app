@@ -1,0 +1,59 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "3:9117373332892200467",
+      "lastPropertyId": "5:2273024522723005058",
+      "name": "CharacterDto",
+      "properties": [
+        {
+          "id": "1:6226325560534652364",
+          "name": "id"
+        },
+        {
+          "id": "2:7527727104910722903",
+          "name": "name"
+        },
+        {
+          "id": "3:7262581657461304875",
+          "name": "description"
+        },
+        {
+          "id": "4:7760649275731174028",
+          "name": "path"
+        },
+        {
+          "id": "5:2273024522723005058",
+          "name": "extension"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:9117373332892200467",
+  "lastIndexId": "1:6868766128901725812",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    8413267729245654238,
+    1775860765609354640
+  ],
+  "retiredIndexUids": [
+    6868766128901725812
+  ],
+  "retiredPropertyUids": [
+    1840240251569612321,
+    5584313088250491038,
+    3134363319281133998,
+    7643285757408302321,
+    380388298891902248,
+    3474691351362463276,
+    720669472781506112
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

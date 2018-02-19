@@ -1,24 +1,17 @@
 package digital.wup.superhero.data.model
 
-import android.arch.persistence.room.ColumnInfo
-import android.arch.persistence.room.Embedded
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
-
 import com.google.gson.annotations.SerializedName
+import io.objectbox.annotation.Entity
+import io.objectbox.annotation.Id
+import io.objectbox.relation.ToOne
 
-@Entity
 data class Character(
-        @PrimaryKey
         @SerializedName("id")
-        var id: Int,
-        @ColumnInfo(name = "name")
+        var id: Long,
         @SerializedName("name")
         var name: String,
-        @ColumnInfo(name = "description")
         @SerializedName("description")
         var description: String,
-        @Embedded
         @SerializedName("thumbnail")
-        var thumbnail: Image
+        var thumbnail: Image?
 )

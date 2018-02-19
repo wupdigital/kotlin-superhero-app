@@ -11,14 +11,19 @@ import javax.inject.Inject
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
+import digital.wup.superhero.data.model.local.MyObjectBox
+
 import digital.wup.superhero.module.DaggerSuperheroComponent
 
 import digital.wup.superhero.module.SuperheroModule
+import io.objectbox.BoxStore
 import timber.log.Timber
 
 class SuperheroApp : Application(), HasActivityInjector {
     @Inject
     internal lateinit var dispatchingActivityInjector: DispatchingAndroidInjector<Activity>
+
+    lateinit var boxStore: BoxStore
 
     override fun attachBaseContext(base: Context) {
         super.attachBaseContext(base)
@@ -27,6 +32,7 @@ class SuperheroApp : Application(), HasActivityInjector {
 
     override fun onCreate() {
         super.onCreate()
+        boxStore = MyObjectBox.builder().androidContext(this).build()
         DaggerSuperheroComponent.builder()
                 .superheroModule(SuperheroModule(this))
                 .build()

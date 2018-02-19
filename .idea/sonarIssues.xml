@@ -18,6 +18,21 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Gateway/channelgateway-api-android/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Gateway/channelgateway-api-android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/MobileUp1.x/authentication/src/main/java/hu/wup/mobile/android/function/authentication/repository/AuthenticationRepositoryImpl.java">
           <value>
             <set />
@@ -28,7 +43,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/MobileUp1.x/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/MobileUp1.x/common-api/src/main/java/hu/wup/mobile/android/commonapi/repository/AppPreloadRepositoryImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/MobileUp1.x/function-common/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/MobileUp1.x/gradle.properties">
           <value>
             <set />
           </value>
@@ -58,6 +88,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/gw/channelgateway-api-android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/salesup-mobile/datacollector/src/main/java/hu/wup/salesupmobile/datacollector/service/DataSenderJobService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../W.UP/Dev/Product/salesup-mobile/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/app.iml">
           <value>
             <set />
@@ -74,6 +119,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/digital/wup/superhero/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/digital/wup/superhero/data/model/Character.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/digital/wup/superhero/data/model/CharacterDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/digital/wup/superhero/data/model/local/CharacterDto.java">
           <value>
             <set />
           </value>
@@ -218,6 +278,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/digital/wup/superhero/data/model/CharacterMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/digital/wup/superhero/data/model/CharactersResponse.java">
           <value>
             <set />
@@ -254,6 +319,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/digital/wup/superhero/data/model/Page.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/digital/wup/superhero/data/model/local/CharacterDto.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/digital/wup/superhero/data/model/local/ImageDto.kt">
           <value>
             <set />
           </value>

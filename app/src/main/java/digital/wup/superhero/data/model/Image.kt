@@ -1,15 +1,13 @@
 package digital.wup.superhero.data.model
 
 
-import android.arch.persistence.room.ColumnInfo
-
 import com.google.gson.annotations.SerializedName
+import io.objectbox.annotation.Entity
+import io.objectbox.annotation.Id
 
 data class Image(
-        @ColumnInfo(name = "path")
         @SerializedName("path")
-        val path: String,
-        @ColumnInfo(name = "extension")
+        var path: String,
         @SerializedName("extension")
-        val extension: String
+        var extension: String
 )
